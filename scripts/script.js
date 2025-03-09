@@ -62,18 +62,18 @@ function playRound(humanChoice, cpuChoice) {
     }
 }
 
-function playGame() {
-    while(humanScore<5 && computerScore<5){
-        const humanSelection = getHumanChoice()
-        const cpuSelection = getComputerChoice()
-        playRound(humanSelection, cpuSelection)
-    }
-    if (humanScore == 5){
-        console.log(`You win! The final score was ${humanScore} vs. ${computerScore}`)
-    }
-    else if (computerScore == 5){
-        console.log(`You lose! The final score was ${humanScore} vs. ${computerScore}`)
-    }
-}
+// function playGame() {
+//     while(humanScore<5 && computerScore<5){
+//         const humanSelection = getHumanChoice()
+//         const cpuSelection = getComputerChoice()
+//         playRound(humanSelection, cpuSelection)
+//     }
+//     if (humanScore == 5){
+//         console.log(`You win! The final score was ${humanScore} vs. ${computerScore}`)
+//     }
+//     else if (computerScore == 5){
+//         console.log(`You lose! The final score was ${humanScore} vs. ${computerScore}`)
+//     }
+// }
 
 playGame();

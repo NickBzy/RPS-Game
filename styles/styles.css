@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    border: 0;
+    background-color: #2C3930;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.game {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerContainer, .cpuContainer {
+    background-color: #DCD7C9;
+    padding: 12px 12px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.rps {
+    display: flex;
+    gap: 20px;
+}
+
+.rock, .paper, .scissors {
+    background-color: #fff;
+    height: 100px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
