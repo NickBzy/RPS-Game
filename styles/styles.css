@@ -39,7 +39,7 @@ p {
 
 .playerContainer, .cpuContainer {
     background-color: #DCD7C9;
-    padding: 12px 12px 40px;
+    padding: 12px 32px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
